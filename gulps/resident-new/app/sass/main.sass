@@ -1,0 +1,484 @@
+// Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
+@import "_variables"
+@import "_libs"
+@import "fonts"
+
+
+
+body
+	font-family: "Optima"
+	background-image: url('../img/src/main_background.jpg')
+
+
+section
+	padding: 70px 0 70px 0
+	// position: relative
+
+
+/*--- Start All Btn ---*/
+
+.btn-primary
+	background-color: $btn-color !important
+	&:hover
+			background-color: $btn-hover !important
+			text-decoration: none	
+
+
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+	background-color: $btn-color!important
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15)
+	box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15)
+
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus
+	-webkit-box-shadow: none
+	box-shadow: none
+
+/*--- End All Btn ---*/
+
+
+
+/*--- Start main overlay ---*/
+
+.overlay-header:before
+	position: absolute
+	content: " "
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	display: block
+	z-index: 0
+	background-color: rgba(95,64,46,0.7)
+
+/*--- End main overlay ---*/
+
+
+
+/*--- Start block .top-contacts ---*/
+
+.top-contacts
+	background-color: $main-dark
+	padding: 10px 0 10px 0
+	color: $c-white
+
+.top-contacts a
+	color: $c-white
+	font-family: "Calibri-Bold"
+	font-size: 16px
+	&:hover
+		text-decoration: underline
+
+
+.top-contacts ul.social-network
+	list-style: none
+	display: inline
+	margin-left: 0 !important
+	padding: 0
+
+
+.top-contacts ul.social-network li
+	display: inline
+	margin: 0 5px
+        
+
+
+/* footer social icons */
+
+.top-contacts .social-network a.icoFacebook:hover
+ 	background-color: #3B5998
+
+.top-contacts .social-network a.icoInstagram:hover
+	background: #f09433
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 )
+
+.top-contacts .social-network a.icoVk:hover
+	background-color: #2787F5
+
+.top-contacts .social-network a.icoFacebook:hover i,
+.top-contacts .social-network a.icoInstagram:hover i,
+.top-contacts .social-network a.icoVk:hover i
+	color: #fff
+
+.top-contacts .social-network a.socialIcon:hover,
+.top-contacts .socialHoverClass
+	color: #44BCDD
+
+.top-contacts .social-circle li a
+	display: inline-block
+	position: relative
+	margin: 0 auto 0 auto
+	-moz-border-radius: 50%
+	-webkit-border-radius: 50%
+	border-radius: 50%
+	text-align: center
+	width: 30px
+	height: 30px
+	font-size: 15px
+
+
+.top-contacts .social-circle li i
+	margin: 0
+	line-height: 30px
+	text-align: center
+
+
+.top-contacts .social-circle li a:hover i,
+.top-contacts .triggeredHover
+  -moz-transform: rotate(360deg)
+  -webkit-transform: rotate(360deg)
+  -ms--transform: rotate(360deg)
+  transform: rotate(360deg)
+  -webkit-transition: all 0.2s
+  -moz-transition: all 0.2s
+  -o-transition: all 0.2s
+  -ms-transition: all 0.2s
+  transition: all 0.2s
+
+.top-contacts .social-circle i
+	color: #595959
+	-webkit-transition: all 0.8s
+	-moz-transition: all 0.8s
+	-o-transition: all 0.8s
+	-ms-transition: all 0.8s
+	transition: all 0.8s
+
+.top-contacts .social-network a
+	background-color: #F9F9F9
+
+/*--- End block .top-contacts ---*/
+
+
+
+
+
+/*--- Start block .top-navbar  ---*/
+
+.fixed-top
+	top: 50px
+
+.bg-dark
+	background-color: $navbar-bg !important
+
+.top-navbar .navbar-brand
+	position: relative
+	bottom: 8px
+
+.top-navbar .dropdown i
+	position: relative
+	bottom: 2px
+
+.top-navbar .nav-item
+	text-transform: uppercase
+	font-family: "Optima-Bold"
+
+
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover
+	color: $c-white !important
+	background-color: $menu-hover !important
+
+
+nav.navbar .dropdown:hover > .dropdown-menu
+ display: block
+
+.dropdown-menu
+	background-color: $main-dark !important
+
+.navbar .dropdown-menu a:not(.active)
+	color: $c-white !important
+	text-transform: none
+
+.dropdown-item:focus, .dropdown-item:hover
+	background-color: $menu-hover !important
+
+
+
+/*--- End block .top-navbar  ---*/
+
+
+
+
+/*--- Start block .widget-booking  ---*/
+
+.widget-booking
+	background-color: $main-dark
+	padding: 0 !important
+	height: 120px
+
+/*--- End block .widget-booking  ---*/
+
+
+
+
+
+/*--- Start block .main-index_text ---*/
+
+.main-index_text
+	color: $c-dark
+
+.main-index_text h1
+	font-size: 60px
+	font-family: "Optima-Bold"
+
+.main-index_text p
+	font-size: 16px
+	font-family: "Optima-Bold"
+
+/*--- End block .main-index_text ---*/
+
+
+
+
+
+/*--- Start block .index-skills---*/
+
+.index-skills
+	padding: 15px 0 15px 0 !important
+	background-color: #d3b6a2
+	color: $c-dark !important
+
+
+.index-skills i
+	color: $c-dark !important
+
+.index-skills p
+	margin-top: 15px
+	font-size: 18px
+	font-family: "Optima-Bold"
+
+/*--- End block .index-skills---*/
+
+
+
+/*--- Start block .index-flats---*/
+
+.index-flats h2
+	font-size: 40px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+
+.index-flats a
+	color: $c-white
+	&:hover
+			text-decoration: underline
+
+/*--- End block .index-flats---*/
+
+
+
+
+
+
+
+/*--- Start block index-special_offers ---*/
+
+
+.index-special_offers h2
+	font-size: 40px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+.index-special_offers .grid
+	padding: 0 40px 0 40px
+	width: auto
+	height: 400px
+
+.index-special_offers .grid img
+	height: 400px!important
+
+/* Owl Carousel  */
+.index-special_offers .owl-prev span,
+.index-special_offers .owl-next span
+	color: $menu-hover
+
+.index-special_offers .owl-prev span:hover, 
+.index-special_offers .owl-next span:hover
+	color: $menu-hover
+
+.index-special_offers .owl-prev,
+.index-special_offers .owl-next
+	position: absolute
+	top: 0
+	height: 100%
+
+.index-special_offers .owl-prev
+	left: 7px
+
+.index-special_offers .owl-next
+  right: 7px
+
+
+.index-special_offers button:focus,
+.index-special_offers button:active
+	outline: none
+
+
+/*--- End block index-special_offers ---*/
+
+
+
+
+
+
+
+
+
+
+/*--- Start block .index-conference_hall ---*/
+
+
+.index-conference_hall h2
+	font-size: 40px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+.index-conference_hall p
+	font-size: 18px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+
+.index-conference_hall a
+	color: $c-white
+	&:hover
+			text-decoration: underline
+
+
+/*--- End block .index-conference_hall ---*/
+
+
+
+
+
+
+
+/*--- Start block .index-cafe ---*/
+
+
+.index-cafe h2
+	font-size: 40px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+.index-cafe p
+	font-size: 18px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+
+.index-cafe a
+	color: $c-white
+	&:hover
+			text-decoration: underline
+
+
+/*--- End block .index-cafe ---*/
+
+
+
+
+
+/*--- Start block .index-parking ---*/
+
+
+.index-parking h2
+	font-size: 40px
+	color: $c-dark!important
+	font-family: "Optima-Bold"
+
+.index-parking p
+	font-size: 18px
+	color: $c-dark !important
+	font-family: "Optima-Bold"
+
+
+.index-parking a
+	color: $c-white
+	&:hover
+			text-decoration: underline
+
+
+/*--- End block .index-parking ---*/
+
+
+
+
+
+
+
+/*--- Start block yandex map ---*/
+
+.ymap
+	padding: 0
+/*--- End block yandex map ---*/
+
+
+
+
+
+	/*--- Start Modal Start Page ---*/
+
+.modal-backdrop
+	background-color: $main-dark
+
+
+.modal .modal-content
+	background-color: $main-bg
+	font-family: "Optima-Bold"
+	font-size: 16px
+
+.modal .modal-content p
+	padding: 0
+	margin: 0
+
+.modal .btn-primary
+	background-color: $btn-color !important
+	&:hover
+			background-color: $btn-hover !important
+			text-decoration: none
+
+
+/*--- End Modal Start Page ---*/
+
+
+
+
+
+
+/*--- Start block .main-footer ---*/
+
+.main-footer
+	background-color: $main-dark
+	padding: 30px 0 15px 0
+
+
+.main-footer p
+	color: $c-white
+	padding: 0
+	margin: 0
+	font-size: 16px
+	font-family: "Optima-Bold"
+
+.main-footer p a
+	color: $btn-color
+	&:hover	
+		color: $btn-hover
+		text-decoration: underline
+
+.main-footer .nav .nav-item .nav-link
+	color: $c-white
+	font-weight: bold
+	font-size: 18px
+	&:hover
+		color: $btn-hover
+
+
+.main-footer .footer-phone
+	font-size: 26px
+
+/*--- End block .main-footer ---*/
