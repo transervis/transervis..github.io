@@ -2,6 +2,11 @@
 $(document).ready(function() {
 
 
+// Starp Page Modal
+	// $(document).ready(function () {
+	// 	$('#myModal').modal('show');
+	// });
+
 	new WOW().init(); 
 
 	$(".navbar li a").mPageScroll2id();
@@ -58,6 +63,12 @@ $('.carousel-main').owlCarousel({
 		}
 	}
 });
+
+
+$(".fancybox").fancybox({
+	loop: true,
+});
+
 
 });
 
