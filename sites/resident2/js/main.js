@@ -2,16 +2,16 @@
 $(document).ready(function() {
 
 
-// Starp Page Modal
+// Start Page Modal
 	// $(document).ready(function () {
 	// 	$('#myModal').modal('show');
 	// });
 
 	new WOW().init(); 
 
-	$(".navbar li a").mPageScroll2id();
+	// $(".navbar li a").mPageScroll2id();
 
-	$(".main-footer li a").mPageScroll2id();
+	// $(".main-footer li a").mPageScroll2id();
 
 
 
@@ -70,6 +70,18 @@ $(".fancybox").fancybox({
 });
 
 
+});
+
+
+$(document).on("scroll", window, function () {
+	if ($(window).scrollTop()>180) 
+	{
+		$(".nav-booking").show();
+	}
+	else
+	{
+		$(".nav-booking").hide();
+	}
 });
 
 
