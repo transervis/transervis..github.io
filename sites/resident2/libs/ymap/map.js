@@ -4,10 +4,10 @@ var placemarks = [
 {
     latitude: 55.04199592749942,
     longitude: 82.9391296497654,
-    hintContent: '<div class="map__hint"><img class="map__burger-img" src="img/src/map/map_logo2.png" alt="Resident"/><div class="map_text">Аренда квартир<br>ул. Крылова, 64/1</div></div>',
+    hintContent: '<div class="map__hint"><img class="map__burger-img" src="img/dest/map/map_logo2.png" alt="Resident"/><div class="map_text">Аренда квартир<br>ул. Крылова, 64/1</div></div>',
     balloonContent: [
     '<div align="center" class="map__balloon">',
-    '<img class="map__burger-img" src="img/src/map/map_logo2.png" alt="Resident"/>',
+    '<img class="map__burger-img" src="img/dest/map/map_logo2.png" alt="Resident"/>',
     '<br>Аренда квартир<br>ул. Крылова, 64/1',
     '</div>'
     ],
@@ -31,7 +31,7 @@ function init() {
         },
         {
             iconLayout: 'default#image',
-            iconImageHref: 'img/src/map/map_logo.png',
+            iconImageHref: 'img/dest/map/map_logo.png',
                 // iconImageSize: [46, 57],
                 iconImageSize: [100, 83],
                 iconImageOffset: [-50, -74],

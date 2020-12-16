@@ -42,8 +42,8 @@
   <meta property="og:image:height" content="300" />
 
 
-  <link rel="shortcut icon" href="img/src/favicon/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" href="img/src/favicon/favicon.png" />
+  <link rel="shortcut icon" href="img/dest/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="img/dest/favicon/favicon.png" />
 
 
 
@@ -57,9 +57,53 @@
 
 
 
-  <!-- Start navbar -->
+
+  <!-- Start .top-contacts -->
+  <div class="top-contacts" id="top-contacts">
+    <div class="container">
+      <div class="row text-center">
+
+        <div class="col-12 col-md-3">
+          <p>Новосибирск, ул.Крылова, 64/1</p>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <p>
+            <a href="tel:+73833104760">+7 (383) 310-47-60</a>
+          </p>
+        </div>
+
+
+        <div class="col-12 col-md-3">
+
+          <ul class="social-network social-circle">
+            <li><a href="#" class="icoInstagram" title="Linkedin"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" class="icoVk" title="Linkedin"><i class="fa fa-vk"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="dropdown">
+            <a class="dropdown-toggle" id="languageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Язык
+              <a>
+                <div class="dropdown-menu" aria-labelledby="languageMenu">
+                  <a class="dropdown-item" href=""><img src="img/dest/icons/russia.png"> Русский</a>
+                  <a class="dropdown-item" href="en/"><img src="img/dest/icons/flag-en.png"> Английский</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- End .top-contacts -->
+
+
+<!-- Start navbar -->
       <nav class="top-navbar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-         <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/src/logo_resident.png" alt=""></a>
+        <a class="navbar-brand" href=""><img class="img-fluid" src="img/dest/logo_resident.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -75,9 +119,9 @@
             <li class="nav-item">
               <a class="nav-link" href="arenda.html">Долгосрочная аренда</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="conference-halls.html">Конференц-зал</a>
-            </li>
+            </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Спецпредложения <i class="fas fa-sort-down"></i>
@@ -94,12 +138,22 @@
                 <a class="dropdown-item" href="#">Бизнес</a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Услуги <i class="fas fa-sort-down"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="cafe.html">Кафе</a>
+                <a class="dropdown-item" href="parking.html">Парковка</a>
+                <a class="dropdown-item" href="conference-halls.html">Конференц-зал</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
               <a class="nav-link" href="cafe.html">Кафе</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link" href="parking.html">Парковка</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="gallery.html">Галерея</a>
             </li>
@@ -107,73 +161,11 @@
               <a class="nav-link" href="#main-footer">Контакты</a>
             </li>
           </ul>
-          <ul class="navbar-nav mr-auto nav-booking wow bounceIn">
+          <!-- <ul class="navbar-nav mr-auto nav-booking wow bounceIn">
             <li class="nav-item">
               <a class="btn-primary nav-link" href="https://reservationsteps.ru/rooms/index/8b7af178-06f0-453c-b3ef-4dfe81716e19">Забронировать</a>
             </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- End navbar -->
-
-
-
-
-      <!-- Start navbar -->
-      <nav class="top-navbar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="/"><img class="img-fluid" src="img/src/logo_resident.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">О резиденте</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/apartments.html">Квартиры</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/arenda.html">Долгосрочная аренда</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/conference-halls.html">Конференц-зал</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Спецпредложения <i class="fas fa-sort-down"></i>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="/special-offers.html#1">Черная пятница</a>
-                <a class="dropdown-item" href="/special-offers.html#2">Промо-акция</a>
-                <a class="dropdown-item" href="/special-offers.html#3">Проживание+парковка</a>
-                <a class="dropdown-item" href="#">Долгострочная арендка квартир</a>
-                <a class="dropdown-item" href="#">Раннее бронирование</a>
-                <a class="dropdown-item" href="#">Тариф ночной</a>
-                <a class="dropdown-item" href="#">7 ночей</a>
-                <a class="dropdown-item" href="#">Скидка на 2-ю квартиру</a>
-                <a class="dropdown-item" href="#">Бизнес</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/cafe.html">Кафе</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/parking.html">Парковка</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/gallery.html">Галерея</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#main-footer">Контакты</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav mr-auto nav-booking wow bounceIn">
-            <li class="nav-item">
-              <a class="btn-primary nav-link" href="https://reservationsteps.ru/rooms/index/8b7af178-06f0-453c-b3ef-4dfe81716e19">Забронировать</a>
-            </li>
-          </ul>
+          </ul> -->
         </div>
       </nav>
       <!-- End navbar -->
@@ -242,7 +234,7 @@
         <div class="row offers-body mt-5 wow zoomIn" id="1">
           <div class="col-md-4">
             <div class="offers-img mb-5">
-              <a href="#"><img class="img-fluid img-thumbnail" src="img/src/special-offers/promo-akciya.jpg" alt=""></a>
+              <a href="#"><img class="img-fluid img-thumbnail" src="img/dest/special-offers/promo-akciya.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-md-8">
@@ -293,7 +285,7 @@
         <div class="row offers-body mt-5 wow zoomIn" id="2">
           <div class="col-md-4">
             <div class="offers-img mb-5">
-              <a href="#"><img class="img-fluid img-thumbnail" src="img/src/special-offers/dolgosrochnaya-arenda-apartamentov-s-bytovoj-tehnikoj-i-parkovkoj.jpg" alt=""></a>
+              <a href="#"><img class="img-fluid img-thumbnail" src="img/dest/special-offers/dolgosrochnaya-arenda-apartamentov-s-bytovoj-tehnikoj-i-parkovkoj.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-md-8">
@@ -344,7 +336,7 @@
         <div class="row offers-body mt-5 wow zoomIn" id="3">
           <div class="col-md-4">
             <div class="offers-img mb-5">
-              <a href="#"><img class="img-fluid img-thumbnail" src="img/src/special-offers/1.jpg" alt=""></a>
+              <a href="#"><img class="img-fluid img-thumbnail" src="img/dest/special-offers/1.jpg" alt=""></a>
             </div>
           </div>
           <div class="col-md-8">
@@ -439,7 +431,7 @@
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-center text-xs-center text-md-center text-lg-left">
           <a href="#">
-            <img class="img-fluid" src="img/src/big_logo_white.png" alt="">
+            <img class="img-fluid" src="img/dest/big_logo_white.png" alt="">
           </a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center text-xs-center text-md-center text-lg-left">
@@ -455,7 +447,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 mt-md-3 text-center text-xs-center text-md-center text-lg-left">
           <a href="https://www.tripadvisor.ru/HotelsManagementCenter-g298529-d4680361-c0-Resident-Novosibirsk_Novosibirsky_District_Novosibirsk_Oblast_Siberian_District.html">
-            <img class="img-fluid" src="img/src/tripadvisor/tripadvisor.jpg" alt="Resident">
+            <img class="img-fluid" src="img/dest/tripadvisor/tripadvisor.jpg" alt="Resident">
           </a>
         </div>
 

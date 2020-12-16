@@ -42,8 +42,8 @@
   <meta property="og:image:height" content="300" />
 
 
-  <link rel="shortcut icon" href="img/src/favicon/favicon.ico" type="image/x-icon">
-  <link rel="icon" type="image/png" href="img/src/favicon/favicon.png" />
+  <link rel="shortcut icon" href="img/dest/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" href="img/dest/favicon/favicon.png" />
 
 
 
@@ -54,6 +54,14 @@
 </head>
 
 <body>
+
+
+
+  <!-- Start Preloader-->
+  <!-- <div class="preloader">
+    <div class="preloader__image"></div>
+  </div> -->
+  <!-- End Preloader-->
 
 
   <!-- Start .top-contacts -->
@@ -82,27 +90,20 @@
         </div>
 
         <div class="col-12 col-md-3">
-          <div class="dropdown">
-            <a class="dropdown-toggle" id="languageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Язык
-              <a>
-                <div class="dropdown-menu" aria-labelledby="languageMenu">
-                  <a class="dropdown-item" href=""><img src="img/src/icons/russia.png"> Русский</a>
-                  <a class="dropdown-item" href="en/index.html"><img src="img/src/icons/flag-en.png"> Английский</a>
-                </div>
-              </div>
-            </div>
-
-          </div>
+          <p>
+            <a href="#">RU|EN</a>
+          </p>
         </div>
+
       </div>
-      <!-- End .top-contacts -->
+    </div>
+  </div>
+  <!-- End .top-contacts -->
 
 
-
-  <!-- Start navbar -->
+<!-- Start navbar -->
       <nav class="top-navbar navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-         <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/src/logo_resident.png" alt=""></a>
+        <a class="navbar-brand" href=""><img class="img-fluid" src="img/dest/logo_resident.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -118,9 +119,9 @@
             <li class="nav-item">
               <a class="nav-link" href="arenda.html">Долгосрочная аренда</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="conference-halls.html">Конференц-зал</a>
-            </li>
+            </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Спецпредложения <i class="fas fa-sort-down"></i>
@@ -137,12 +138,22 @@
                 <a class="dropdown-item" href="#">Бизнес</a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Услуги <i class="fas fa-sort-down"></i>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="cafe.html">Кафе</a>
+                <a class="dropdown-item" href="parking.html">Парковка</a>
+                <a class="dropdown-item" href="conference-halls.html">Конференц-зал</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
               <a class="nav-link" href="cafe.html">Кафе</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link" href="parking.html">Парковка</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="gallery.html">Галерея</a>
             </li>
@@ -150,11 +161,11 @@
               <a class="nav-link" href="#main-footer">Контакты</a>
             </li>
           </ul>
-          <ul class="navbar-nav mr-auto nav-booking wow bounceIn">
+          <!-- <ul class="navbar-nav mr-auto nav-booking wow bounceIn">
             <li class="nav-item">
               <a class="btn-primary nav-link" href="https://reservationsteps.ru/rooms/index/8b7af178-06f0-453c-b3ef-4dfe81716e19">Забронировать</a>
             </li>
-          </ul>
+          </ul> -->
         </div>
       </nav>
       <!-- End navbar -->
@@ -274,16 +285,16 @@
 
               <div class="grid d-flex flex-column align-items-center justify-content-center">
                 <div class="view">
-                  <a href="img/src/attractions/nsk/7-min.jpg" class="fancybox" data-fancybox="gallery">
-                    <img src="img/src/attractions/nsk/7-min.jpg" class="img-fluid" alt="">
+                  <a href="img/dest/attractions/nsk/7-min.jpg" class="fancybox" data-fancybox="gallery">
+                    <img src="img/dest/attractions/nsk/7-min.jpg" class="img-fluid" alt="">
                 </a>
               </div>
             </div>
 
             <div class="grid d-flex flex-column align-items-center justify-content-center">
               <div class="view">
-               <a href="img/src/attractions/nsk/10-min.jpg" class="fancybox" data-fancybox="gallery">
-                <img src="img/src/attractions/nsk/10-min.jpg" alt="">
+               <a href="img/dest/attractions/nsk/10-min.jpg" class="fancybox" data-fancybox="gallery">
+                <img src="img/dest/attractions/nsk/10-min.jpg" alt="">
               </a>
             </div>
           </div>
@@ -291,72 +302,72 @@
 
           <div class="grid d-flex flex-column align-items-center justify-content-center">
             <div class="view">
-             <a href="img/src/attractions/nsk/16-min.jpg" class="fancybox" data-fancybox="gallery">
-              <img src="img/src/attractions/nsk/16-min.jpg" class="img-fluid" alt="">
+             <a href="img/dest/attractions/nsk/16-min.jpg" class="fancybox" data-fancybox="gallery">
+              <img src="img/dest/attractions/nsk/16-min.jpg" class="img-fluid" alt="">
             </a>
           </div>
         </div>
 
         <div class="grid d-flex flex-column align-items-center justify-content-center">
           <div class="view">
-           <a href="img/src/attractions/nsk/26-min.jpg" class="fancybox" data-fancybox="gallery">
-            <img src="img/src/attractions/nsk/26-min.jpg" class="img-fluid" alt="">
+           <a href="img/dest/attractions/nsk/26-min.jpg" class="fancybox" data-fancybox="gallery">
+            <img src="img/dest/attractions/nsk/26-min.jpg" class="img-fluid" alt="">
           </a>
         </div>
       </div>
 
       <div class="grid d-flex flex-column align-items-center justify-content-center">
         <div class="view">
-         <a href="img/src/attractions/nsk/20-min.jpg" class="fancybox" data-fancybox="gallery">
-          <img src="img/src/attractions/nsk/20-min.jpg" class="img-fluid" alt="">
+         <a href="img/dest/attractions/nsk/20-min.jpg" class="fancybox" data-fancybox="gallery">
+          <img src="img/dest/attractions/nsk/20-min.jpg" class="img-fluid" alt="">
         </a>
       </div>
     </div>
 
     <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/nsk/17-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/nsk/17-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/nsk/17-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/nsk/17-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/zoo/21-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/zoo/21-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/zoo/21-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/zoo/21-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/zoo/27-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/zoo/27-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/zoo/27-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/zoo/27-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/zoo/2-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/zoo/2-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/zoo/2-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/zoo/2-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/zoo/14-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/zoo/14-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/zoo/14-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/zoo/14-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/zoo/15-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/zoo/15-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/zoo/15-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/zoo/15-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -365,41 +376,24 @@
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/peers/28-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/peers/28-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/peers/28-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/peers/28-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/peers/29-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/peers/29-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/peers/29-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/peers/29-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/peers/30-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/peers/30-min.jpg" class="img-fluid" alt="">
-      </a>
-    </div>
-  </div>
-
-
-  <div class="grid d-flex flex-column align-items-center justify-content-center">
-      <div class="view">
-       <a href="img/src/attractions/pl/3-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/pl/3-min.jpg" class="img-fluid" alt="">
-      </a>
-    </div>
-  </div>
-
-  <div class="grid d-flex flex-column align-items-center justify-content-center">
-      <div class="view">
-       <a href="img/src/attractions/pl/12-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/pl/12-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/peers/30-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/peers/30-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -407,16 +401,33 @@
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/rjd/1-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/rjd/1-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/pl/3-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/pl/3-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/rjd/9-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/rjd/9-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/pl/12-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/pl/12-min.jpg" class="img-fluid" alt="">
+      </a>
+    </div>
+  </div>
+
+
+  <div class="grid d-flex flex-column align-items-center justify-content-center">
+      <div class="view">
+       <a href="img/dest/attractions/rjd/1-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/rjd/1-min.jpg" class="img-fluid" alt="">
+      </a>
+    </div>
+  </div>
+
+  <div class="grid d-flex flex-column align-items-center justify-content-center">
+      <div class="view">
+       <a href="img/dest/attractions/rjd/9-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/rjd/9-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -424,24 +435,24 @@
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/rjd/11-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/rjd/11-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/rjd/11-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/rjd/11-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/rjd/24-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/rjd/24-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/rjd/24-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/rjd/24-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/rjd/25-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/rjd/25-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/rjd/25-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/rjd/25-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -450,8 +461,8 @@
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/aqua/4-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/aqua/4-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/aqua/4-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/aqua/4-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -459,24 +470,24 @@
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/aqua/6-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/aqua/6-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/aqua/6-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/aqua/6-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/aqua/18-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/aqua/18-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/aqua/18-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/aqua/18-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/aqua/19-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/aqua/19-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/aqua/19-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/aqua/19-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -484,24 +495,24 @@
 
   <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/kidburg/8-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/kidburg/8-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/kidburg/8-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/kidburg/8-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/kidburg/22-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/kidburg/22-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/kidburg/22-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/kidburg/22-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
 
 <div class="grid d-flex flex-column align-items-center justify-content-center">
       <div class="view">
-       <a href="img/src/attractions/kidburg/23-min.jpg" class="fancybox" data-fancybox="gallery">
-        <img src="img/src/attractions/kidburg/23-min.jpg" class="img-fluid" alt="">
+       <a href="img/dest/attractions/kidburg/23-min.jpg" class="fancybox" data-fancybox="gallery">
+        <img src="img/dest/attractions/kidburg/23-min.jpg" class="img-fluid" alt="">
       </a>
     </div>
   </div>
@@ -552,7 +563,7 @@
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 text-center text-xs-center text-md-center text-lg-left">
         <a href="#">
-          <img class="img-fluid" src="img/src/big_logo_white.png" alt="">
+          <img class="img-fluid" src="img/dest/big_logo_white.png" alt="">
         </a>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 text-center text-xs-center text-md-center text-lg-left">
@@ -568,7 +579,7 @@
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 mt-md-3 text-center text-xs-center text-md-center text-lg-left">
         <a href="https://www.tripadvisor.ru/HotelsManagementCenter-g298529-d4680361-c0-Resident-Novosibirsk_Novosibirsky_District_Novosibirsk_Oblast_Siberian_District.html">
-          <img class="img-fluid" src="img/src/tripadvisor/tripadvisor.jpg" alt="Resident">
+          <img class="img-fluid" src="img/dest/tripadvisor/tripadvisor.jpg" alt="Resident">
         </a>
       </div>
 
