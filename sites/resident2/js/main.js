@@ -54,16 +54,16 @@ $(".fancybox").fancybox({
 });
 
 
-$(document).on("scroll", window, function () {
-	if ($(window).scrollTop()>180) 
-	{
-		$(".nav-booking").show();
-	}
-	else
-	{
-		$(".nav-booking").hide();
-	}
-});
+// $(document).on("scroll", window, function () {
+// 	if ($(window).scrollTop()>180) 
+// 	{
+// 		$(".nav-booking").show();
+// 	}
+// 	else
+// 	{
+// 		$(".nav-booking").hide();
+// 	}
+// });
 
 
 // $(window).on('load', function() {
